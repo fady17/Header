@@ -1,8 +1,27 @@
-# React + Vite
+# Custom Header UI Component
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive and dynamic **Header** component built with React. It supports smooth scrolling navigation, state-based link activation, and a mobile-friendly menu. This component is perfect for landing pages, portfolios, or any web application that requires a clean, customizable header.
 
-Currently, two official plugins are available:
+![Header Demo](https://user-images.githubusercontent.com/placeholder-image-url/demo-image.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
+
+- **Responsive Design**: Fully adaptable to different screen sizes, including mobile.
+- **Smooth Scrolling**: Seamless navigation between sections with smooth scrolling animation.
+- **Dynamic State**: Changes style when the user scrolls the page or opens the mobile menu.
+- **Customizable Links**: Easily add or modify links in the navigation bar.
+- **Scroll Spy**: Active state for links based on the current section in view.
+
+## 📦 Installation
+
+To install the component and include it in your project, follow these steps:
+
+1. Install the required dependencies:
+
+```bash
+pnpm i react-scroll clsx lucide-react
+
+//or just
+git clone git@github.com:fady17/Header.git .
+pnpm i
+pnpm dev
